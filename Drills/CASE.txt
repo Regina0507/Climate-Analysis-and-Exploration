@@ -1,0 +1,40 @@
+# The Thrill of the Case
+
+
+* Change each animal's species to the correct species.
+
+  ![Images/case01.png](Images/case01.png)
+
+
+****Using Case statement ( This will create a new column named corrected_species)
+
+Select 
+	id,
+	animal_name,
+	species,
+Case 
+when animal_name = 'Mickey Mouse' then 'Mouse'
+when animal_name = 'Minnie Mouse' then 'Mouse'
+when animal_name = 'Donald duck'  then 'Duck'
+
+else unknown 
+end  [corrected_species)]
+from Animal Table
+
+
+
+*****USING UPDATE STATEMENT
+update Animal Table 
+set species = 'mouse'
+where animal_name = 'Mickey Mouse'
+
+
+
+update Animal Table 
+set species = 'mouse'
+where animal_name = 'Minnie Mouse'
+
+
+update Animal Table 
+set species = 'duck'
+where animal_name = 'Donald Duck'
