@@ -41,8 +41,7 @@ API
 
   * Which station has the highest number of observations?
 
-  * Hint: You will need to use functions in your SQL query, such as `MAX()`, `MIN()`, `AVG()`, and `COUNT()` in your queries.
-
+  
 * Design a query to retrieve the last 12 months of temperature observation data (TOBS).
 
   * Filter by the station with the highest number of observations.
